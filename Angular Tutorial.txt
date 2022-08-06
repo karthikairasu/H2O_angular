@@ -1,0 +1,3 @@
+ng serve --open
+npm install bootstrap jquery popper.js --save
+ng generate component dashboard

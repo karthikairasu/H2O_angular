@@ -11,9 +11,7 @@ describe('SidenavComponent', () => {
       declarations: [ SidenavComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(SidenavComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
