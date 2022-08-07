@@ -1,7 +1,21 @@
-@font-face {
+/* @font-face {
     font-family: "DM Sans";
     src: url('src/assets/font/DMSans-Medium.ttf') format('ttf');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+} */
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+mat-drawer {
+  width: 260px;
+  background: #0f172a;
+}
+
+mat-drawer-container {
+  height: 100%;
 }
