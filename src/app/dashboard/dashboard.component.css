@@ -1,1 +1,27 @@
-.page{color:#fff;padding:0 1rem;background:#f1f5f9}.page__box{min-height:120px;background:#1e293b;margin:0 -1rem;font-size:36px}.page__content{min-height:calc(100vh - 178px);border-radius:10px;margin-top:-2rem;background:#fff;color:#000;font-size:2rem}.page__content-data{top:50%;left:50%;transform:translate(-50%, -50%)}
+.page {
+  color: #fff;
+  padding: 0 1rem;
+  background: #f1f5f9;
+}
+.page__box {
+  min-height: 70px;
+  background: #f7f7f7;
+  color: #000;
+  margin: 0 -1rem;
+  font-size: 20px;
+  box-shadow: rgb(60 64 67 / 30%) 0px 0px 2px 1px,
+    rgb(60 64 67 / 15%) 0px 0px 3px 1px;
+}
+.page__content {
+  min-height: calc(100vh - 178px);
+  border-radius: 10px;
+  margin-top: 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 2rem;
+}
+.page__content-data {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
